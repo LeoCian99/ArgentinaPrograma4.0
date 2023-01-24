@@ -1,0 +1,120 @@
+*{
+    font-family: 'Lora', serif;
+    left: 15%;
+    right: 15%;
+    height:max-content;
+}
+body{
+    margin-left: 15%;
+    border-left: solid royalblue;
+    border-right: solid royalblue;
+    margin-right: 15%;
+}
+#foto{
+    height: 200px;
+    width: 200px;
+    padding-top: 15px;
+    padding-left: 15%;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    position: absolute;
+}
+.inf{/* DATOS BASICOS*/
+    position:relative;
+    padding: 10px;
+    padding-left: 250px;
+    margin: 35px;
+}
+.btn{
+    margin-top: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: x-large;
+    background: transparent;
+    border-radius: 40px;
+    border: solid 2px royalblue;
+    padding: 15px;
+    width: 50%;
+}
+.btn:hover{
+    margin-top: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: x-large;
+    background: transparent;
+    border-radius: 40px;
+    border:3px rgb(73, 156, 239) solid;
+    padding: 15px;
+    width: 50%;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+.lista{
+    position:relative;
+    left: 35%;
+    width: 35%;
+}
+dd{
+    margin-left: 5px;
+}
+@media screen and (max-width: 480px){
+    *{
+        font-family: 'Lora', serif;
+        left: 5%;
+        right: 5%;
+        height:max-content;
+    }
+body{
+    width: fit-content;
+    margin-left: 5%;
+    border-left: solid royalblue;
+    border-right: solid royalblue;
+    margin-right: 5%;
+    }
+    #foto{
+        text-align: center;
+        padding: unset;
+        position: relative;
+    }
+    .inf{
+
+        margin-top: auto;
+        padding: 1px;
+    }
+    h1{
+        text-align: inherit;
+        font-size: x-large;
+    }
+    
+    .btn{
+        margin-top: 10px;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: x-large;
+        background: transparent;
+        border-radius: 40px;
+        border: solid 2px royalblue;
+        padding: 15px;
+        width: 80%;
+    }
+    .btn:hover{
+        margin-top: 10px;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: x-large;
+        background: transparent;
+        border-radius: 40px;
+        border:3px rgb(73, 156, 239) solid;
+        padding: 15px;
+        width: 80%;
+    }
+    .lista{
+        position:relative;
+        left: 15%;
+        width: 70%;
+    }
+}
